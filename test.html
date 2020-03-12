@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<htlm lang="en-US">
+<head>
+    <title>Examples of Fruits</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+</head>
+
+    <body>
+    <h3 id="myHeader">List of Fruits</h3>
+    <ul>
+        <li>Mangoes</li>
+        <li>Tomatoes</li>
+        <li>Bananas</li>
+        <li>Oranges</li>
+        <li>Grapes</li>
+    </ul>
+
+    <p class="error">
+        <h2 class="fruits">Benefits of Fruits</h2>
+    <ol id="ol01" type="i">
+        <li>Rich in vitamin C and minerals</li>
+        <li>Prevents illnesses</li>
+        <li>Helps in digestion</li>
+        <li>Improves immune system</li>
+    </ol>
+    </p>
+
+    <table id="t01">
+        <caption>Fruits Details</caption>
+        <tr>
+            <th>Fruit</th>
+            <th>Quantity</th>
+            <th>Price Per Unit</th>
+            <th>Total Cost</th>
+        </tr>
+        <tr>
+            <td>Mango</td>
+            <td>20</td>
+            <td>20</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>Tomatoes</td>
+            <td>100</td>
+            <td>5</td>
+            <td>500</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <form action="/action_page.php" target="_blank" method="post" autocomplete="on">
+        <fieldset>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" autocomplete="off" autofocus required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" autocomplete="off" required><br><br>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+            <select name="fruits" id="fruits" required>
+                <option value="mango">Mango</option>
+                <option value="tomato">Tomato</option>
+                <option value="grapes">Grapes</option>
+                <option value="oranges">Oranges</option>
+                <option value="apple">Apple</option>
+                <option value="water_melon">Water Melon</option>
+            </select><br><br>
+            <textarea name="message" cols="30" rows="10">
+                The fruits above are the ones in the list.
+            </textarea><br><br>
+            <input type="checkbox" name="mango" id="mango" value="Mango" required>
+            <label for="mango">Mango</label><br><br>
+            <input type="checkbox" name="tomato" id="tomato" value="Tomato" required>
+            <label for="tomato">Tomato</label><br><br>
+            <label for="birthday">Birthay:</label>
+            <input type="date" id="birthday" name="birthday" required><br><br>
+            <label for="dateandtime">Date and time:</label>
+            <input type="datetime-local" name="dateandtime" id="dateandtime" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" maxlength="20" autocomplete="off" required><br><br>
+            <label for="myfile">File:</label>
+            <input type="file" id="myfile" name="myfile" required><br><br>
+            <label for="bdaymonth">Birthday Month:</label>
+            <input type="month" id="bdaymonth" name="bdaymonth" required><br><br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" required><br><br>
+            <input type="search" id="search" name="search" required>
+            <label for="search">Google Search</label><br><br>
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required><br><br>
+            <label for="homepage">Enter your URL</label>
+            <input type="url" id="homepage" name="homepage" required><br><br>
+            <label for="week">Week</label>
+            <input type="week" id="week" name="week" required><br><br>
+            <!--<input type="button" onclick="alert('Submit')" value="Submit!"><br>-->
+            <input type="submit" formenctype="multipart/form-data" value="Submit as Multiple/form-data">
+        </fieldset>
+    </form>
+    </body>
+</htlm>
